@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
+  <path d="M1.35714 0H8.14286C8.50279 0 8.84799 0.1475 9.1025 0.410051C9.35701 0.672601 9.5 1.0287 9.5 1.4C9.5 1.7713 9.35701 2.1274 9.1025 2.38995C8.84799 2.6525 8.50279 2.8 8.14286 2.8H1.35714C0.997206 2.8 0.652012 2.6525 0.397498 2.38995C0.142984 2.1274 0 1.7713 0 1.4C0 1.0287 0.142984 0.672601 0.397498 0.410051C0.652012 0.1475 0.997206 0 1.35714 0ZM10.8571 11.2H17.6429C18.0028 11.2 18.348 11.3475 18.6025 11.6101C18.857 11.8726 19 12.2287 19 12.6C19 12.9713 18.857 13.3274 18.6025 13.5899C18.348 13.8525 18.0028 14 17.6429 14H10.8571C10.4972 14 10.152 13.8525 9.8975 13.5899C9.64298 13.3274 9.5 12.9713 9.5 12.6C9.5 12.2287 9.64298 11.8726 9.8975 11.6101C10.152 11.3475 10.4972 11.2 10.8571 11.2ZM1.35714 5.6H17.6429C18.0028 5.6 18.348 5.7475 18.6025 6.01005C18.857 6.2726 19 6.6287 19 7C19 7.3713 18.857 7.7274 18.6025 7.98995C18.348 8.2525 18.0028 8.4 17.6429 8.4H1.35714C0.997206 8.4 0.652012 8.2525 0.397498 7.98995C0.142984 7.7274 0 7.3713 0 7C0 6.6287 0.142984 6.2726 0.397498 6.01005C0.652012 5.7475 0.997206 5.6 1.35714 5.6Z" fill="white"/>
+</svg>
+
+#903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%
+<main className="flex mx-auto">
+          <div className="relative font-[Clash] pl-20 leading-tight mt-24">
+            <div>
+              <h3 className="text-[73px]">getlinked Tech</h3>
+              <h3 className="text-[73px] flex space-x-3">
+                <span>Hackathon</span>{" "}
+                <span className="text-[#D434FE]">1.0</span>{" "}
+                <img src={chain} alt="" />
+              </h3>
+            </div>
+            <div>
+              <p className=" pr-24 pl-1 leading-loose">
+                Participate in getlinked tech Hackathon 2023 stand a chance to
+                win a Big prize
+              </p>
+            </div>
+            <button className="bg-gradient px-6 py-2 rounded-sm mt-6 ml-1">
+              Register
+            </button>
+
+            <div className="flex mt-24 space-x-5">
+              <button className="font-[unica]">
+                <span className="text-5xl">
+                  00<span className="text-sm">H</span>{" "}
+                </span>
+              </button>
+              <button className="font-[unica]">
+                <span className="text-5xl">
+                  00<span className="text-sm">M</span>{" "}
+                </span>
+              </button>
+              <button className="font-[unica]">
+                <span className="text-5xl">
+                  00<span className="text-sm">S</span>{" "}
+                </span>
+              </button>
+            </div>
+          </div>
+          <div className="relative mt-20">
+            <div className="absolute -top-2 left-11">
+              <img src={virtual} alt="" className="w-[34rem]" />
+            </div>
+            <img src={img} alt="" className="w-[53rem] h-full" />
+          </div>
+        </main>
+
+        <main className="px-[6.4rem] grid grid-cols-2">
+        <div className="flex justify-center">
+          <img src={bigidea} alt="" className="h-[25rem]" />
+        </div>
+        <div className="font-[Clash] pt-[6rem] pl-5 ">
+          <h2 className="text-4xl mt-3">
+            Introduction to getlinked{" "}<br />
+            <span className="text-[#D434FE]">tech Hackathon 1.0</span>
+          </h2>
+          <p className="font-[Montserrat] leading-loose mt-4 text-[12px] pr-16">
+            Our tech hackathon is a melting pot of visionaries, and its purpose
+            is as clear as day: to shape the future. Whether you're a coding
+            genius, a design maverick, or a concept wizard, you'll have the
+            chance to transform your ideas into reality. Solving real-world
+            problems, pushing the boundaries of technology, and creating
+            solutions that can change the world, that's what we're all about!
+          </p>
+        </div>
+      </main>
+
+      Adherence to Hackathon Rules: Judges will Ensure that the team adhered 
+to the rules and guidelines of the hackathon, including deadlines, use of 
+specific technologies or APIs, and any other competition-specific requirements
+
+Technical Complexity: Evaluate the technical sophistication of the solution. 
+Judges would consider the complexity of the code, the use of advanced 
+technologies or algorithms, and the scalability of the solution.
+
+Impact and Relevance: Determine the potential impact of the solution 
+in the real world. Does it address a significant problem, and is it relevant 
+to the target audience? Judges would assess the potential social, 
+economic, or environmental benefits.
+
+Functionality: Assess how well the solution works. Does it perform its 
+intended functions effectively and without major issues? Judges would
+consider the completeness and robustness of the solution.
+
+Innovation and Creativity: Evaluate the uniqueness and creativity of the
+solution. Consider whether it addresses a real-world problem in a novel 
+way or introduces innovative features.
+
+Judging Criteria
+Key attributes

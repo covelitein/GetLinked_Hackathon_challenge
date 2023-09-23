@@ -1,0 +1,134 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body{
+  font-family: sans-serif;
+}
+
+
+.bg-gradient {
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%)
+}
+
+.bg-purplelens {
+  background-image: url('./assets/images/purplelens.png');
+  background-position: -1.385px 0px;
+  background-size: 122.403% 102.747%;
+}
+
+.mix {
+  mix-blend-mode: hard-light;
+}
+
+.mix1 {
+  mix-blend-mode: lighten;
+}
+
+.font-style {
+  font-size: 30px;
+  font-family: Montserrat2;
+  font-style: italic;
+  font-weight:600;
+}
+
+.justify-self {
+  justify-self: start;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: Montserrat2;
+  src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: MontserratItalic;
+  src: url('./assets/fonts/Montserrat-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Unica;
+  src: url('./assets/fonts/UnicaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Clash2;
+  src: url('./assets/fonts/ClashDisplay-Light.woff2');
+}
+
+@font-face {
+  font-family: Clash;
+  src: url('./assets/fonts/ClashDisplay-Medium.woff');
+}
+
+.shadow-1 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: 
+  "first first second third third";
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: 
+  "third third second first first"
+  ;
+}
+
+@media (max-width:768px) {
+  .grid-1 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 
+    "second first first first first"
+    "second third third third third"
+    ;
+  }
+}
+
+@media (max-width:768px) {
+  .grid-2 {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 
+    "second first first first first"
+    "second third third third third"
+    ;
+  }
+}
+
+.desc {
+  grid-area: first;
+}
+.second {
+  grid-area: second;
+}
+.date {
+  grid-area: third;
+}
+
+.bg-gradient2 {
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
