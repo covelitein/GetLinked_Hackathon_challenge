@@ -3,9 +3,9 @@ import { Header, SuccessMessage } from "../components";
 import register from '../assets/images/register.png'
 
 const Register = () => {
-  const [firstName, setFirstName] = useState("");
-  const [mail, setMail] = useState("");
-  const [message, setMessage] = useState("");
+  // const [firstName, setFirstName] = useState("");
+  // const [mail, setMail] = useState("");
+  // const [message, setMessage] = useState("");
   const [checked, setChecked] = useState(false);
 
   return (
@@ -83,7 +83,8 @@ const Register = () => {
                   >
                     <input
                       type="checkbox"
-                      defaultChecked={checked}
+                      checked={checked}
+                      onChange={(e)=>setChecked(e.target.checked)}
                       className="before:content[''] peer relative h-4 w-4 cursor-pointer appearance-none rounded-sm border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-[#D434EF] checked:bg-[#D434EF] checked:before:bg-[#D434EF] hover:before:opacity-10"
                       id="checkbox"
                     />

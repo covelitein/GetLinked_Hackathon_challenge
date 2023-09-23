@@ -1,10 +1,10 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Header } from "../components"
 
 const Contact = () => {
-  const [firstName, setFirstName] = useState('')
-  const [mail, setMail] = useState('')
-  const [message, setMessage] = useState('')
+  // const [firstName, setFirstName] = useState('')
+  // const [mail, setMail] = useState('')
+  // const [message, setMessage] = useState('')
   return (
     <section className="bg-[#150E28] min-h-screen text-white pt-6">
       <Header />

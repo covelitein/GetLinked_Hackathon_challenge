@@ -1,5 +1,4 @@
 import policyimg from '../assets/images/policy.png'
-import { ListStyle } from './subcomponents';
 import { GoCheck } from "react-icons/go";
 
 const Terms = () => {

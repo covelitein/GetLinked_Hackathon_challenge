@@ -1,5 +1,5 @@
 import img from "../assets/images/man-wearing-smart-glasses-touching-virtual-screen 1.png";
-import virtual from "../assets/images/virtual.png";
+// import virtual from "../assets/images/virtual.png";
 import chain from "../assets/images/chain-9365116-7621444.png";
 import creative from '../assets/images/Creative 1.png'
 import fire from '../assets/images/1f4a5 (1).png'
